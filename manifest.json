@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "DemoWebExt",
+  "version": "1.0",
+  "description": "Demo WebExtensions",
+
+  "icons": {
+    "48": "icons/cliqz-icon.png"
+  },
+
+  "permissions": [
+    "tabs",
+    "downloads"
+  ],
+
+  "page_action": {
+    "default_icon": "icons/download-icon.png",
+    "default_title": "Video Downloader"
+  },
+
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
